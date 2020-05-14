@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Recipe Book</title>
+    <style media="screen">
+      table, th, td {
+   border: 1px solid black;
+   border-collapse: collapse;
+
+}
+   th, td {
+     padding:10px;
+   }
+   table{
+
+
+     margin-right: 30px;
+     margin-left: 30px;
+
+   }
+      #jollof{
+background-color:lightgreen;
+      }
+      #fried{
+        background-color:lightblue;
+      }
+      #tuwo{
+        background-color:yellow;
+      }
+      .first-table {
+        background-color:lightgreen;
+      }
+      h1{
+        text-align:center;
+        font-family:lucida console;
+        color:Green;
+      }
+      h2{
+        margin-left: 30px;
+        font-family:lucida console;
+        color:blue;
+      }
+      h3{
+        font-family:cursive;
+        text-align:center
+      }
+      .list{
+        margin-left: 30px;
+
+      }
+
+    </style>
+  </head>
+  <body>
+    <h1>My Recipe Book</h1>
+    <h2>Table of Contents</h2>
+    <div class="list">
+    <ol>
+      <li> <a href="#j1">Jollof Rice</a></li>
+      <li> <a href="#f1">Fried Rice</a></li>
+      <li> <a href="#t1">Tuwo </a></li>
+    </ol>
+  </div>
+
+<h3 id="j1";style= text-align:center; font-family:cursive><strong>Jollof Rice</strong></h3>
+
+    <table id="jollof">
+      <tr>
+        <th>Ingredients</th>
+        <th>How to prepare</th>
+      </tr>
+      <tr>
+        <td><ul>
+          <li>Rice</li>
+          <li>Pepper</li>
+          <li>Tomato</li>
+          <li>Salt</li>
+          <li>Seasoning</li>
+          <li>water</li>
+        </ul></td>
+        <td><p>Pour the chicken stock and the tomato stew into a sizeable pot and leave to boil.</p> <p>Add the drained parboiled rice, curry powder, salt and pepper to taste. The water level should be the same level of the rice. This is to ensure that all the water dries up by the time the rice is cooked.</p><br><p>Cover the pot and leave to cook on low to medium heat. This way the rice does not burn before the water dries up.</p><br><a href="https://www.allnigerianrecipes.com/rice/nigerian-jollof-rice/">learn more here</a></td>
+      </tr>
+    </table>
+
+    <h3 id="f1";style= text-align:center; font-family:cursive><strong>Fried Rice</strong></h3>
+
+
+    <table id="fried">
+      <tr>
+        <th>Ingredients</th>
+        <th>How to prepare</th>
+      </tr>
+      <tr>
+        <td><ul>
+          <li>Rice</li>
+          <li>Pepper</li>
+          <li>Tomato</li>
+          <li>Salt</li>
+          <li>Seasoning</li>
+          <li>water</li>
+          <li>Onions</li>
+          <li>Green Beans</li>
+        </ul></td>
+        <td><p>Cook the cow liver till done and cut into tiny pieces. To save time and energy, you can cook the liver with the chicken as I did in the video below.</p> <p>Cut the whole chicken into pieces and cook with the Knorr cubes, thyme and 2 bulbs of onions (chopped). When done, grill in an oven or deepfry with vegetable oil. This gives it a golden look which is more presentable especially when you are entertaining guests.</p><br><p>Cover the pot and leave to cook on low to medium heat. This way the rice does not burn before the water dries up.</p><br><a href="https://www.allnigerianrecipes.com/rice/nigerian-fried-rice/">learn more here</a></td>
+      </tr>
+    </table>
+
+
+  <h3 id="t1";style= text-align:center; font-family:cursive;><strong>Tuwo</strong></h3>
+
+    <table id="tuwo">
+      <tr>
+        <th>Ingredients</th>
+        <th>How to prepare</th>
+      </tr>
+      <tr>
+        <td><ul>
+          <li>Rice</li>
+          <li>Pepper</li>
+          <li>Tomato</li>
+          <li>Salt</li>
+          <li>Seasoning</li>
+          <li>water</li>
+          <li>Vegetables</li>
+          <li>Fish</li>
+          <li>Onions</li>
+        </ul></td>
+        <td><p>Pour just enough water to cover the rice and start cooking at medium heat.</p> <p>When the first dose of water dries up, check the rice by mashing it between your fingers. If the rice grains have even a tiny resistance when you press them, then it needs to be cooked some more.</p><br><p>Reduce the heat to low, add a little bit more water and continue cooking till the water dries.</p><br><a href="https://www.allnigerianrecipes.com/fufu-recipes/tuwo-shinkafa/">learn more here</a></td>
+      </tr>
+    </table>
+
+  </body>
+</html>
